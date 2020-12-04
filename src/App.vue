@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Query/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Query from './components/Query.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Query
   }
 }
 </script>
@@ -24,5 +23,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  width:80%;
+  margin: auto;
 }
 </style>
